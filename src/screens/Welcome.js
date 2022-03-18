@@ -41,7 +41,7 @@ export default class Welcome extends React.Component {
                         color: 'grey',
                         marginBottom: 50,
                     }}>
-                    Вы вошли в систему как {'\n' + this.props.route.params.email}
+                    Вы вошли в систему как {this.props.route.params.email}
                 </Text>
             </View>
         );
